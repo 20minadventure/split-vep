@@ -4,19 +4,20 @@ import sys
 
 import utils.init
 import pkg_resources
-try:
-    print(pkg_resources.resource_filename('helloworld', 'utils/file'))
-except:
-    pass
-try:
-    print(pkg_resources.resource_filename('helloworld', 'file'))
-except:
-    pass
-file_path2 = pkg_resources.resource_filename('analysis', 'file')
-file_path3 = pkg_resources.resource_filename('utils', 'file')
 
 
 def hello():
+    try:
+        print(pkg_resources.resource_filename('helloworld', 'utils/file'))
+    except:
+        pass
+    try:
+        print(pkg_resources.resource_filename('helloworld', 'file'))
+    except:
+        pass
+    file_path2 = pkg_resources.resource_filename('analysis', 'file')
+    file_path3 = pkg_resources.resource_filename('utils', 'file')
+
     if len(sys.argv) > 1:
         n = int(sys.argv[1])
     else:
