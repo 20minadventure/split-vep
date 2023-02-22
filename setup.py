@@ -11,7 +11,7 @@ setup(
 #    url="",
     packages=find_packages(),
 #    license='LICENSE',
-    data_files={'helloworld': ['utils/file']},
+    data_files={'utils': ['file']},
     include_package_data=True,
     entry_points={
         'console_scripts': [
