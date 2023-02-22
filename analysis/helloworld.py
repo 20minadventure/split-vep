@@ -3,6 +3,8 @@ import os
 import sys
 
 import utils.init
+import pkg_resources
+file_path = pkg_resources.resource_filename('', 'utils/file')
 
 
 def hello():
@@ -13,6 +15,7 @@ def hello():
     """Simple program that greets NAME for a total of COUNT times."""
     print(os.path.isfile('utils/file'))
     print(os.path.isfile('file'))
+    print(os.path.isfile(file_path))
     for x in range(n):
         print('Hello dnax!')
 
