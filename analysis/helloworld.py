@@ -13,6 +13,3 @@ def hello():
     for x in range(n):
         print('Hello dnax!')
 
-if __name__ == '__main__':
-    print(sys.argv)
-    hello()
