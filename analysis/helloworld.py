@@ -10,8 +10,8 @@ def hello():
     else:
         n = 0
     """Simple program that greets NAME for a total of COUNT times."""
-    with open('file') as f:
-        print(f.readlines())
+    print(os.path.isfile('utils/file')
+    print(os.path.isfile('file')
     for x in range(n):
         print('Hello dnax!')
 
