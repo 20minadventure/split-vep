@@ -11,7 +11,7 @@ setup(
 #    url="",
     packages=find_packages(),
 #    license='LICENSE',
-    package_data={'': ['analysis/utils/file']},
+    package_data={'': ['utils/file']},
     entry_points={
         'console_scripts': [
             'aloha = analysis.helloworld:hello'
