@@ -5,7 +5,7 @@ import utils.init
 
 
 def hello():
-    if len(sys.argv) > 1):
+    if len(sys.argv) > 1:
         n = int(sys.agrv[1])
     else:
         n = 0
