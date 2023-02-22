@@ -4,7 +4,7 @@ import sys
 
 import utils.init
 import pkg_resources
-file_path1 = pkg_resources.resource_filename('helloworld', 'utils/file')
+#file_path1 = pkg_resources.resource_filename('helloworld', 'utils/file')
 file_path2 = pkg_resources.resource_filename('analysis', 'utils/file')
 file_path3 = pkg_resources.resource_filename('utils', 'utils/file')
 
@@ -17,7 +17,7 @@ def hello():
     """Simple program that greets NAME for a total of COUNT times."""
     print(os.path.isfile('utils/file'))
     print(os.path.isfile('file'))
-    print(os.path.isfile(file_path1))
+    #print(os.path.isfile(file_path1))
     print(os.path.isfile(file_path2))
     print(os.path.isfile(file_path3))
     for x in range(n):
