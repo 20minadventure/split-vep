@@ -5,8 +5,8 @@ import sys
 import utils.init
 import pkg_resources
 #file_path1 = pkg_resources.resource_filename('helloworld', 'utils/file')
-file_path2 = pkg_resources.resource_filename('analysis', 'utils/file')
-file_path3 = pkg_resources.resource_filename('utils', 'utils/file')
+file_path2 = pkg_resources.resource_filename('analysis', 'file')
+file_path3 = pkg_resources.resource_filename('utils', 'file')
 
 
 def hello():
