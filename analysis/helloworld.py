@@ -10,10 +10,12 @@ def hello():
     try:
         print(pkg_resources.resource_filename('helloworld', 'utils/file'))
     except:
+        print('ex')
         pass
     try:
         print(pkg_resources.resource_filename('helloworld', 'file'))
     except:
+        print('ex')
         pass
     file_path2 = pkg_resources.resource_filename('analysis', 'file')
     file_path3 = pkg_resources.resource_filename('utils', 'file')
