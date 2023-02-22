@@ -11,7 +11,7 @@ setup(
 #    url="",
     packages=find_packages(),
 #    license='LICENSE',
-    data_files={'split-vep': ['utils/file']},
+    data_files={'split_vep': ['utils/file']},
     include_package_data=True,
     entry_points={
         'console_scripts': [
