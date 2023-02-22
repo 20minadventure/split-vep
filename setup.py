@@ -13,7 +13,7 @@ setup(
     license='LICENSE',
     entry_points={
         'console_scripts': [
-            'aloha = helloworld.analysis.helloworld:hello'
+            'aloha = split_vep.analysis.helloworld:hello'
         ]
     },
 )
