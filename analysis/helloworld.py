@@ -6,7 +6,7 @@ import utils.init
 
 def hello():
     if len(sys.argv) > 1:
-        n = int(sys.agrv[1])
+        n = int(sys.argv[1])
     else:
         n = 0
     """Simple program that greets NAME for a total of COUNT times."""
