@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 setup(
@@ -9,7 +9,7 @@ setup(
     author="JH",
     author_email="email@gmail.com",
     url="",
-    py_modules=['helloworld'],
+    packages=find_packages(),
     license='LICENSE',
     entry_points={
         'console_scripts': [
